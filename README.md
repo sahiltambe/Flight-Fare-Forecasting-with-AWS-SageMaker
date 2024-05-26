@@ -38,20 +38,6 @@ The primary objective of this project is to build a predictive model that can es
 ### Project Architecture
 
 ![Project Architecture](flight_price_prediction_flowchart.png)
-```mermaid
-graph LR
-  A[Data Collection] --> B[Split Data]
-  B --> C[EDA]
-  C --> D[Feature Engineering]
-  D --> E[Data Pre-processing]
-  E --> F[SageMaker Notebook Instance]
-  F --> G[Upload Data to S3 Bucket]
-  G --> H[Set-up ML Model]
-  H --> I[Set-up Hyperparameter Tuner]
-  I --> J[Save Best Model in S3 Bucket]
-  J --> K[Web Application using Streamlit]
-  K --> L[Deploy Web Application]
-
 
 ## Data Collection
 
@@ -136,7 +122,9 @@ Addressed common code errors, path issues, and ensured smooth deployment and mon
 
 ## Snapshots
 
-![Streamlit Application](path_to_streamlit_application_image)
+![Streamlit Application](screenshots\1.png)
+![Streamlit Application](screenshots\2.png)
+
 
 ## Mind Map
 
