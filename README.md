@@ -6,15 +6,23 @@ This project aims to predict flight prices using machine learning techniques imp
 
 ## Table of Contents
 
-1. [Project Goals and Objectives](#project-goals-and-objectives)
-2. [Data Collection](#data-collection)
-3. [Data Cleaning and Preprocessing](#data-cleaning-and-preprocessing)
-4. [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
-5. [Feature Engineering](#feature-engineering)
-6. [Model Training and Deployment](#model-training-and-deployment)
-7. [Snapshots](#snapshots)
-8. [Project Architecture](#project-architecture)
-9. [Mind Map](#mind-map)
+1. [Relevant Links](#relevant-links)
+2. [Project Goals and Objectives](#project-goals-and-objectives)
+3. [Data Collection](#data-collection)
+4. [Data Cleaning and Preprocessing](#data-cleaning-and-preprocessing)
+5. [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
+6. [Feature Engineering](#feature-engineering)
+7. [Model Training and Deployment](#model-training-and-deployment)
+8. [Snapshots](#snapshots)
+9. [Project Architecture](#project-architecture)
+10. [Mind Map](#mind-map)
+
+
+## Relevant Links
+
+- [Web Application](https://flight-fare-forecasting-with-aws-sagemaker-fajtmtqbjbumxievoq9.streamlit.app/)
+- [GitHub](https://github.com/sahiltambe/Flight-Fare-Forecasting-with-AWS-SageMaker/)
+- [LinkedIn](https://www.linkedin.com/in/sahiltambe13//)
 
 ## Project Goals and Objectives
 
@@ -30,6 +38,20 @@ The primary objective of this project is to build a predictive model that can es
 ### Project Architecture
 
 ![Project Architecture](flight_price_prediction_flowchart.png)
+```mermaid
+graph LR
+  A[Data Collection] --> B[Split Data]
+  B --> C[EDA]
+  C --> D[Feature Engineering]
+  D --> E[Data Pre-processing]
+  E --> F[SageMaker Notebook Instance]
+  F --> G[Upload Data to S3 Bucket]
+  G --> H[Set-up ML Model]
+  H --> I[Set-up Hyperparameter Tuner]
+  I --> J[Save Best Model in S3 Bucket]
+  J --> K[Web Application using Streamlit]
+  K --> L[Deploy Web Application]
+
 
 ## Data Collection
 
