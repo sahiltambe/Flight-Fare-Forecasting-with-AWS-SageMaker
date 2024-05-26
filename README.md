@@ -29,7 +29,7 @@ The primary objective of this project is to build a predictive model that can es
 
 ### Project Architecture
 
-![Project Architecture](path_to_architecture_image)
+![Project Architecture](flight_price_prediction_flowchart.png)
 
 ## Data Collection
 
@@ -113,26 +113,6 @@ Developed a user-friendly web application using Streamlit, allowing users to inp
 Addressed common code errors, path issues, and ensured smooth deployment and monitoring using AWS SageMaker tools.
 
 ## Snapshots
-
-### Initial Data Exploration Results
-
-![Initial Data Exploration](path_to_initial_data_exploration_image)
-
-### Data Cleaning Process
-
-![Data Cleaning Process](path_to_data_cleaning_process_image)
-
-### EDA Visualizations
-
-![EDA Visualizations](path_to_eda_visualizations_image)
-
-### Feature Engineering Steps
-
-![Feature Engineering](path_to_feature_engineering_image)
-
-### Model Training and Results
-
-![Model Training](path_to_model_training_image)
 
 ![Streamlit Application](path_to_streamlit_application_image)
 
