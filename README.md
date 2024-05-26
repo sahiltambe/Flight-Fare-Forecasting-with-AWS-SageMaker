@@ -122,8 +122,8 @@ Addressed common code errors, path issues, and ensured smooth deployment and mon
 
 ## Snapshots
 
-![Streamlit Application](1.png)
-![Streamlit Application](2.png)
+![Streamlit Application](Streamlit_UI_1.png)
+![Streamlit Application](Streamlit_UI_2.png)
 
 
 ## Mind Map
