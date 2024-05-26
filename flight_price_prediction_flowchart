@@ -1,0 +1,26 @@
+// Flight Price Prediction using AWS SageMaker
+digraph {
+	A [label="Data Collection"]
+	B [label="Split Data"]
+	C [label="Exploratory Data Analysis (EDA)"]
+	D [label="Feature Engineering"]
+	E [label="Data Pre-processing"]
+	F [label="SageMaker Notebook Instance"]
+	G [label="Upload Data to S3 Bucket"]
+	H [label="Set-up ML Model"]
+	I [label="Set-up Hyperparameter Tuner"]
+	J [label="Save Best Model in S3 Bucket"]
+	K [label="Web Application using Streamlit"]
+	L [label="Deploy Web Application"]
+	A -> B
+	B -> C
+	C -> D
+	D -> E
+	E -> F
+	F -> G
+	G -> H
+	H -> I
+	I -> J
+	J -> K
+	K -> L
+}
