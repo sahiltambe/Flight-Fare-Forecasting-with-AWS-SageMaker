@@ -35,9 +35,9 @@ The primary objective of this project is to build a predictive model that can es
 - Optimize model performance through hyperparameter tuning.
 - Develop a user-friendly web application using Streamlit for flight price predictions.
 
-### Project Architecture
+<!-- ### Project Architecture
 
-![Project Architecture](flight_price_prediction_flowchart.png)
+![Project Architecture](flight_price_prediction_flowchart.png) -->
 
 ## Data Collection
 
