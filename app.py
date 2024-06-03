@@ -267,6 +267,9 @@ st.set_page_config(
 	layout="wide"
 )
 
+# Add a link to your GitHub repository at the top of the webpage
+st.markdown("[GitHub Repository](https://github.com/sahiltambe/Flight-Fare-Forecasting-with-AWS-SageMaker)", unsafe_allow_html=True)
+
 st.title("Flight Fare Forecasting with AWS SageMaker")
 
 # user inputs
